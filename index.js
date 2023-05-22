@@ -6,3 +6,7 @@ const version = os.version()
 const type = os.type()
 
 export {homedir,hostname,version,type}
+
+import {arr} from './welcome.js'
+
+console.log(arr)

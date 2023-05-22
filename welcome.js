@@ -1,4 +1,6 @@
-import {homedir,hostname,version,type} from './index.js'
+import os from 'os'
+const type = os.type()
 
-console.log(`Привет, юзер. Вижу ты зашел с ${type}`)
+const arr = `Привет, юзер. Вижу ты зашел с ${type}`
 
+export {arr}
